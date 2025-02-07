@@ -1,0 +1,60 @@
+body{
+    background-color: skyblue;
+}
+.cont{
+    height: 220px;
+    width: 600px;
+    border: 2px brown solid;
+    margin-top: 40px;
+    margin-left: 500px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+input{
+    width: 70%;
+    margin-right: 20px;
+    height: 40px;
+    background-color: bisque;
+    color: maroon;
+    border: 2px plum solid;
+    border-radius: 20px;
+    text-align: center;
+}
+button{
+    background-color: rgba(58, 58, 239, 0.809);
+    color: wheat;
+    border: 1px solid plum;
+    border-radius: 20px;
+    height: 40px;
+    width: 80px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: blue;
+}
+
+.details{
+    border: 2px #ff0000 solid;
+    height: 400px;
+    width: 50%;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 400px;
+    border-radius: 20px;
+    background-image: url("./wt.jpg");
+    background-size: cover;
+}
+
+h4{
+    color: rgb(141, 93, 5);
+}
+
+.n2{
+    padding-top: 10px;
+    color: brown;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
