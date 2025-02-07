@@ -30,7 +30,7 @@ export default function Tanishweather() {
                 <h1 style={{color:"maroon",textShadow:'2px 2px 4px rgba(0, 0, 0, 0.2)'}}><b>Tanish Learning Center</b></h1>
                 <h3 style={{color:'brown',marginBottom:"30px"}}><b>Weather App</b></h3>
                 <input type='text' placeholder='Enter City Name!' value={city} onChange={(e) => setcity(e.target.value)} />
-                <button onClick={getData}>Search</button>
+                <button onClick={getData} style={{borderRadius:"20px"}}>Search</button>
             </div>
 
             <div className='details'>
